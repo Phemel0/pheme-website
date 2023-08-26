@@ -280,6 +280,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@studio-freight/lenis@npm:^1.0.19":
+  version: 1.0.19
+  resolution: "@studio-freight/lenis@npm:1.0.19"
+  checksum: 552844b23ebf8af0dedf655a102bfaf453d80a7d2b702e7632c28f65cec0d673d138776a937119470442ffda50132827d806dead19d92b896d1fbedb35b0f1b9
+  languageName: node
+  linkType: hard
+
 "@swc/helpers@npm:0.5.1":
   version: 0.5.1
   resolution: "@swc/helpers@npm:0.5.1"
@@ -2993,6 +3000,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "pheme-website@workspace:."
   dependencies:
+    "@studio-freight/lenis": ^1.0.19
     "@types/node": 20.5.3
     "@types/react": 18.2.21
     "@types/react-dom": 18.2.7
