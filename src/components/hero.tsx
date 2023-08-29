@@ -1,17 +1,20 @@
-import React from 'react'
+import Image from "next/image"
+import heroImage  from "../assets/images/heroImage.jpg"
 
 export default function hero() {
     return (
-    <>
-        <div className=''>
-            <h1>
-                This is Tagline
-            </h1>
-        </div>
         <div>
-            <p></p>
-            <p></p>
+            <h1>Meltdown</h1>
+            <Image 
+                src={heroImage}
+                alt="placeholderImage" 
+            />
+            <h2>Starter Kit</h2>
+            <a 
+                href="#"
+                className="">
+                View More +
+            </a>
         </div>
-    </>
     )
 }
