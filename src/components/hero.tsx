@@ -3,8 +3,8 @@ import heroImage  from "../assets/images/heroImage.jpg"
 
 export default function hero() {
     return (
-        <div>
-            <h1>Meltdown</h1>
+        <div className="">
+            <h1 className="text-[298px] text-center">Meltdown</h1>
             <Image 
                 src={heroImage}
                 alt="placeholderImage" 
