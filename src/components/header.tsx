@@ -1,6 +1,6 @@
 function header() {
     return (
-    <div className="flex">
+    <div className="flex mx-[35px] mt-[46px] border-black border-b pb-[1.44rem]">
         <div className="flex-1 items-center justify-center">
             Made by PHEME
         </div>
