@@ -1,7 +1,7 @@
 import Header from '../components/header'
 import Hero from '../components/hero'
 
-export default function Home() {
+function Home() {
   return (
     <div>
       <Header />
@@ -9,3 +9,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home

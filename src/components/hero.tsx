@@ -8,7 +8,8 @@ export default function Hero() {
                 <h1 className="text-[18.625rem] text-center">Meltdown</h1>
                 <Image 
                     src={heroImage}
-                    alt="placeholderImage" 
+                    alt="placeholderImage"
+                    blurDataURL="" 
                 />
             </div>
             <div className="flex pt-[2.62rem]">
